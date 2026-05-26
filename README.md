@@ -9,4 +9,9 @@ docker logs apache
 docker stop apache
 docker rm apache
 docker rmi httpd
+
+Zadanie 2
+
+docker build .
+docker run -d --name app.py -p 8090:80 app
 ```
